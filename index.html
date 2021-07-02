@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- creates cool loader that responds to page load -->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+
+     <!-- Icons -->
+
+    <script
+      src="https://kit.fontawesome.com/1aac26dbd0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+     <!-- Styling for the loader -->
+    <link href="./css/center-circle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 791px)"
+      href="./css/mobile.css"
+    />
+
+    <title>CoinTracking Dashboard</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>CoinTracker<span>CryptoCoolency</span></h1>
+      <div class="navigationbar">
+        <nav>
+          <button id="Home" class="btn-on">Home</button>
+          <button id="LiveReports">Live Reports</button>
+          <button id="About">About</button>
+        </nav>
+        <div id="formsearch">
+          <input type="search" id="search" placeholder="Search" /><button
+            id="search-icon"
+          >
+            ⌕
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div id="root">
+        <br /><br />
+        <h1><span>Fetching latest updates...</span></h1>
+      </div>
+    </section>
+    <footer>
+      <nav class="fnav">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/shimon-moyal/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/MaceTenth" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/shimonsimomoyal" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="copyright">Created by macetenth</div>
+      </nav>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/reports.js"></script>
+    <script src="js/dynamicContent.js"></script>
+
+  </body>
+</html>
