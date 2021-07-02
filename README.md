@@ -30,6 +30,13 @@ The purpose of this dashboard is to demonstrate how to produce dynamic content o
  
  ## Preview:
  
+  ![Preview](/imgs/Cointracker.png)
+
+
+## Moblie:
+
+    
+   ![Mobile](/imgs/mobile.png)
  
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
@@ -38,7 +45,10 @@ The purpose of this dashboard is to demonstrate how to produce dynamic content o
    
    [CryptoCompare API]: <https://www.cryptocompare.com/>
    
-    [View on Github pages]: <https://www.cryptocompare.com/>
+   [View on Github pages]: <https://macetenth.github.io/CoinTracker/>
+   
+  
+
    
    
    
